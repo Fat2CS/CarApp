@@ -8,3 +8,11 @@ export interface CustomButtonProps {
   textStyles?: string;
   rightIcon?: string;
 }
+export interface CustomFilterProps {
+  title: string;
+}
+
+export interface SearchStylesArtProps {
+  stylesArt: string;
+  setStylesArt: (stylesArt: string) => void;
+}

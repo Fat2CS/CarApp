@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import SearchBar from "./SearchBar";
 import CustomFilter from "./CustomFilter";
 import SearchStylesArt from "./SearchStylesArt";
+import ImageCard from "./ImageCard";
 export {
   Hero,
   CustomButton,
@@ -12,5 +13,6 @@ export {
   Footer,
   SearchBar,
   CustomFilter,
-  SearchStylesArt
+  SearchStylesArt,
+  ImageCard
 };

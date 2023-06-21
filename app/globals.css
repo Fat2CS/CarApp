@@ -90,6 +90,13 @@
 /* END: Home styles */
 
 /* START: Car Card styles */
+
+.car-card__group {
+  @apply h-2/5;
+}
+.car-card__group:last-child {
+  @apply mb-40; /* Ajoutez la marge souhaitée */
+}
 .car-card {
   @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;
 }
